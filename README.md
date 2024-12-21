@@ -15,7 +15,7 @@ To execute the DAG, install Docker, git clone this repo, and then
 1. `docker build -t repro .` to build an image from the Dockerfile
 2. `docker run -t -d --name repro_run repro` to run the image
 3. `docker exec -i -t repro_run /bin/bash` to jump into the image on the command line, or use Visual Studio Code's remote: attach to container option.
-4. To (re-run) the analysis within the container, open the `app/` directory (you will need to go up one directory level) and then run `poetry run make clean` followed by `poetry run make`.
+4. To (re-run) the analysis within the container, open the `app/` directory (you will need to go up one directory level) and then run `uv run make clean` followed by `uv run make`.
 
 The final output of the project, `report.pdf`, is saved in the outputs folder.
 
