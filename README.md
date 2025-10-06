@@ -1,5 +1,7 @@
 # example-reproducible-research
 
+**If you're looking to create a reproducible research project yourself, check out the [*research cookiecutter*](https://github.com/aeturrell/cookiecutter-research-project)**.
+
 An example repo to demonstrate some principles of reproducible research, including that operations should form a directed acyclic graph, that packages should be pinned (and their dependencies specified), and that the computational environment should be reproducible too.
 
 The project acquires some data, runs a regression, makes a plot, and puts both regression and plot in an automatically generated PDF report.
